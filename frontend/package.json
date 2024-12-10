@@ -1,13 +1,13 @@
 {
   "name": "frontend",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
-    "dev": "vite dev",
-    "dev:webpack": "webpack serve",
-    "build": "webpack build",
+    "dev:vite": "vite dev",
     "preview:vite": "vite preview",
     "build:vite": "vite build",
+    "dev:webpack": "webpack serve",
+    "build:webpack": "webpack build",
     "style": "npx prettier . --write"
   },
   "dependencies": {
