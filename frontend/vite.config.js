@@ -4,8 +4,7 @@ export default defineConfig({
   build: {
     outDir: "build",
     emptyOutDir: true,
-    rollupOptions: {
-    },
+    rollupOptions: {},
   },
   server: {
     open: true,
