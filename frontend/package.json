@@ -1,13 +1,14 @@
 {
   "name": "frontend",
   "type": "module",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "scripts": {
     "dev:vite": "vite dev",
     "preview:vite": "vite preview",
     "build:vite": "vite build",
     "dev:webpack": "webpack serve",
     "build:webpack": "webpack build",
+    "partytown": "partytown copylib public/~partytown",
     "style": "npx prettier . --write"
   },
   "dependencies": {

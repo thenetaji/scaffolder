@@ -123,6 +123,33 @@
     <script type="module" src="/src/js/index.js" defer></script>
 
     <title></title>
+
+    <script>
+      partytown = {
+        debug: true,
+        forward: ["dataLayer.push"],
+      };
+    </script>
+    <script
+      type="text/javascript"
+      src="/~partytown/partytown.js"
+      async
+    ></script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      type="text/partytown"
+      src="https://www.googletagmanager.com/gtag/js?id=your_gtag_id"
+    ></script>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "your_gtag");
+    </script>
   </head>
   <body></body>
 </html>
